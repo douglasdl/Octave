@@ -37,10 +37,28 @@ Configure the format of numeric variables to be displayed
 
 ## Matrix  
 `A = [1 2; 3 4; 5 6]`  
+Create a Line Matrix defining the first element, and last element (step will be 1 by default).    
+`v = 1:6`  
+Create a Line Matrix defining the first element, step, and last element.    
+`v = 1:0.1:2`  
+Create a Matrix with all elements 1  
+`ones(2,3)`
+Create a Matrix with all elements 0  
+`zeros(4,3)`  
+Create a Matrix with all elements with random numbers (between 0 and 1)  
+`rand(2,3)`  
+Create a Matrix with all elements with random gausian distribution numbers  
+`randn(2,3)`  
+Show a Histogram Chart  
+`hist(v)`  
+`hist(v, 50)`  
+Create an Identity Matrix   
+`eye(4)`  
+Help (command)  
+`help eye`  
+`help help`  
+
 
 ## Vector  
-`v = [1 2 3]`  
-
-
-
+`v = [1; 2; 3]`  
 
