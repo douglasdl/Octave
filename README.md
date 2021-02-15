@@ -1,7 +1,7 @@
 # [Octave](https://www.gnu.org/software/octave/index)
 Basic Commands for Machine Learning
 
-# Installation (MacOS)  
+## Installation (MacOS)  
 `sudo xcode-select --install`  
 `brew update`  
 `brew install octave`  
